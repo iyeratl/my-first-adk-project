@@ -1,0 +1,26 @@
+{
+  "packageDirectories" : [
+    {"path": "sfdx-source/force-app", "default": true}
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "43.0",
+  "plugins": {
+    "sfdxFalcon": {
+      "producerAlias"   : "univ-ctrs",
+      "producerName"    : "Universal Containers",
+      "projectAlias"    : "uc-demo-app",
+      "projectName"     : "UC demo app",
+      "projectType"     : "appx:single-demo",
+      "defaultRecipe"   : "demo-recipe.json",
+      "gitRemoteUri"    : "https://github.com/iyeratl/my-first-adk-project.git",
+      "gitHubUrl"       : "https://github.com/my-org/my-repo",
+      "projectVersion"  : "0.0.1",
+      "schemaVersion"   : "0.0.1",
+      "pluginVersion"   : "0.0.9",
+      "appxPackage"     : {},
+      "appxDemo": {
+        "demoRecipes"   : ["demo-recipe.json"]
+      }
+    }			
+  }
+}
